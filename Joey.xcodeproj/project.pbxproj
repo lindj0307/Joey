@@ -6,10 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		D4CD51431B9EC5DE0099C18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CD513E1B9EC5DD0099C18C /* HappyKidsSong.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4CD51191B9EC5DD0099C18C;
+			remoteInfo = HappyKidsSong;
+		};
+		D4CD51451B9EC5DE0099C18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CD513E1B9EC5DD0099C18C /* HappyKidsSong.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4CD512E1B9EC5DD0099C18C;
+			remoteInfo = HappyKidsSongTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4CD513E1B9EC5DD0099C18C /* HappyKidsSong.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HappyKidsSong.xcodeproj; path = HappyKidsSong/HappyKidsSong.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
+		D4CD513F1B9EC5DD0099C18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD51441B9EC5DE0099C18C /* HappyKidsSong.app */,
+				D4CD51461B9EC5DE0099C18C /* HappyKidsSongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D4E8E47D1B9D1C3A002AEB8E = {
 			isa = PBXGroup;
 			children = (
+				D4CD513E1B9EC5DD0099C18C /* HappyKidsSong.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -30,11 +61,34 @@
 			);
 			mainGroup = D4E8E47D1B9D1C3A002AEB8E;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D4CD513F1B9EC5DD0099C18C /* Products */;
+					ProjectRef = D4CD513E1B9EC5DD0099C18C /* HappyKidsSong.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D4CD51441B9EC5DE0099C18C /* HappyKidsSong.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HappyKidsSong.app;
+			remoteRef = D4CD51431B9EC5DE0099C18C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4CD51461B9EC5DE0099C18C /* HappyKidsSongTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HappyKidsSongTests.xctest;
+			remoteRef = D4CD51451B9EC5DE0099C18C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		D4E8E4821B9D1C3A002AEB8E /* Debug */ = {
